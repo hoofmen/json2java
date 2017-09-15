@@ -1,0 +1,9 @@
+language: java
+jdk:
+- oraclejdk8
+before_install:
+script: mvn clean install
+before_deploy:
+after_success:
+after_failure:
+deploy:
