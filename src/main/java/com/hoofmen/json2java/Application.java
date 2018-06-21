@@ -18,6 +18,7 @@ public class Application implements CommandLineRunner {
     private Json2JavaService json2JavaService;
 
     public static void main(String[] args) throws Exception {
+	System.out.println("Hello people");
         SpringApplication app = new SpringApplication(Application.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
